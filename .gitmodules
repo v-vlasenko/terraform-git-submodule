@@ -1,0 +1,3 @@
+[submodule "terraform-scalr-flat"]
+	path = terraform-scalr-flat
+	url = https://github.com/scalr-automation/terraform-scalr-flat
