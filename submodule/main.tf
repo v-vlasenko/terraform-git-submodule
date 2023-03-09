@@ -16,12 +16,12 @@ resource "random_pet" "top_level" {
   } 
 }
 
-output "keeper" {
-  value = resource.random_pet.example.keepers
-}
-
 output "top_level_pet" {
   value = resource.random_pet.top_level.id
+}
+
+output "keeper" {
+  value = resource.random_pet.example.keepers.string
 }
 
 module "submodule" {
