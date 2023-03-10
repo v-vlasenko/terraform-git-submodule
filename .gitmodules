@@ -1,6 +1,3 @@
-[submodule "terraform-scalr-flat"]
-	path = terraform-scalr-flat
-	url = https://github.com/scalr-automation/terraform-scalr-flat
 [submodule "submodule/terraform-scalr-flat"]
 	path = submodule/terraform-scalr-flat
-	url = https://github.com/scalr-automation/terraform-scalr-flat
+	url = https://github.com/v-vlasenko/terraform-scalr-flat
